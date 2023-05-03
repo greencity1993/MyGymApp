@@ -5,7 +5,8 @@
         
 
 function playAudio() { 
-  x.play(); 
+  setTimeout(() => {  x.play(); }, 5000);
+   
 } 
     </script>
     <style>
@@ -31,8 +32,6 @@ function playAudio() {
 
 </audio>
 
-
-<button onclick="playAudio()" type="button">Play Audio</button>
 
     <div class="flex-container">
       <div class='aim'>1</div>
