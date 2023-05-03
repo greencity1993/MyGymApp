@@ -2,15 +2,13 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
-        
+      function playAudio() { 
+        x.play(); 
+      } 
 
-function playAudio() { 
-  x.play(); 
-} 
-
-function playAudio2() { 
-  setTimeout(() => {  x.play();  }, 5000);
-} 
+      function playAudio2() { 
+        setTimeout(() => {  x.play();  }, 5000);
+      } 
     </script>
     <style>
       .flex-container {
@@ -26,31 +24,26 @@ function playAudio2() {
         font-size: 30px;
       }
     </style>
-
   </head>
   <body>
-
     <audio id="myAudio">
-  <source src="signal.mp3" type="audio/mpeg">
-
-</audio>
-
-
+      <source src="signal.mp3" type="audio/mpeg">
+    </audio>
     <div class="flex-container">
-      <div class='aim' onclick="playAudio()">Signal wiht no delay</div>
-      <div class='aim'><img src="1.png" alt="Girl in a jacket" width="500" height="600"></div>
-      <div class='aim' onclick="playAudio2()">Delayd signal</div>  
+      <div class='aim'><img src="images/1.png" width="500" height="600" onclick="playAudio()" ></div>
+      <div class='aim'><img src="images/2.png" width="500" height="600" onclick="playAudio2()" ></div>
+      <div class='aim'><img src="images/3.png" width="500" height="600"></div>
+      <div class='aim'><img src="images/4.png" width="500" height="600"></div>
+      <div class='aim'><img src="images/5.png" width="500" height="600"></div>
+      <div class='aim'><img src="images/6.png" width="500" height="600"></div>
     </div>
-
   </body>
 </html>
 <script>
   var x = document.getElementById("myAudio"); 
-$(document).ready(function(){
-  $(".aim").click(function(){
-    $(this).remove();
+  $(document).ready(function(){
+    $(".aim").click(function(){
+      $(this).remove();
+    });
   });
-
-
-});
 </script>
