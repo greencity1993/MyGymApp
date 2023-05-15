@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "weight": 15,
+      "imageSrc": "assets/images/1.png",
+      "queued": true
+    },
+    {
+      "id": 2,
+      "weight": 42.5,
+      "imageSrc": "assets/images/2.png",
+      "queued": true
+    },
+    {
+      "id": 3,
+      "weight": 0,
+      "imageSrc": "assets/images/3.png",
+      "queued": true
+    },
+    {
+      "id": 4,
+      "weight": 35,
+      "imageSrc": "assets/images/4.png",
+      "queued": true
+    },
+    {
+      "id": 5,
+      "weight": 35,
+      "imageSrc": "assets/images/5.png",
+      "queued": true
+    },
+    {
+      "id": 6,
+      "weight": 25,
+      "imageSrc": "assets/images/6.png",
+      "queued": true
+    }
+]

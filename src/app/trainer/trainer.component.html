@@ -1,0 +1,29 @@
+<img [src]="[src]" width="100%">
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+    <button mat-mini-fab color="accent">
+      {{number}}
+    </button>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-checkbox (change)="setAll($event.checked)" [checked]="autoRest">Auto Rest</mat-checkbox>
+  </mat-grid-tile>
+</mat-grid-list>
+<mat-grid-list cols="2" rowHeight="1.2:1">
+  <mat-grid-tile>
+  	<h1 class="timer">{{timer}}</h1>sec.
+  </mat-grid-tile>
+  <mat-grid-tile (click)="timerButtonClick(setPeriod, true)">
+	<button mat-fab extended>
+		30 sec.
+	</button>
+  </mat-grid-tile>
+  <mat-grid-tile>
+  	{{weight}} kg.
+  </mat-grid-tile>
+  <mat-grid-tile (click)="timerButtonClick(restPeriod)">
+    <button mat-fab extended>
+      {{ restPeriod / 60}} min.
+    </button>
+  </mat-grid-tile>
+</mat-grid-list>

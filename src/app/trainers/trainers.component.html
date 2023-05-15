@@ -1,0 +1,7 @@
+<mat-grid-list cols="2" rowHeight="1:1.1">
+  <mat-grid-tile *ngFor="let trainer of getNotUsedTrainers()">
+    <a *ngIf="!trainer.done" class="button" [routerLink]="['/trainer', trainer.id]" (click)="deleteTrainer(trainer.id)">
+      <img [src]="trainer.imageSrc" width="100%">
+     </a>
+  </mat-grid-tile>
+</mat-grid-list>
