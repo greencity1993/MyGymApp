@@ -7,7 +7,7 @@
     },
     {
       "id": 2,
-      "weight": 45,
+      "weight": 50,
       "imageSrc": "assets/images/2.png",
       "queued": true
     },
