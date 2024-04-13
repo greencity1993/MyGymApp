@@ -1,0 +1,131 @@
+{
+  "configVersion": 1,
+  "timestamp": 1713028109581,
+  "index": "/my-gym-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/my-gym-app/favicon.ico",
+        "/my-gym-app/index.html",
+        "/my-gym-app/main.2bd72d81cfbdd3b3.js",
+        "/my-gym-app/manifest.webmanifest",
+        "/my-gym-app/polyfills.d7317d4c8f87ef15.js",
+        "/my-gym-app/runtime.083b88174350612e.js",
+        "/my-gym-app/styles.6c6c2169e4e2710d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/my-gym-app/assets/data.json",
+        "/my-gym-app/assets/icons/100.png",
+        "/my-gym-app/assets/icons/1024.png",
+        "/my-gym-app/assets/icons/114.png",
+        "/my-gym-app/assets/icons/120.png",
+        "/my-gym-app/assets/icons/128.png",
+        "/my-gym-app/assets/icons/144.png",
+        "/my-gym-app/assets/icons/152.png",
+        "/my-gym-app/assets/icons/16.png",
+        "/my-gym-app/assets/icons/167.png",
+        "/my-gym-app/assets/icons/180.png",
+        "/my-gym-app/assets/icons/192.png",
+        "/my-gym-app/assets/icons/20.png",
+        "/my-gym-app/assets/icons/256.png",
+        "/my-gym-app/assets/icons/29.png",
+        "/my-gym-app/assets/icons/32.png",
+        "/my-gym-app/assets/icons/40.png",
+        "/my-gym-app/assets/icons/50.png",
+        "/my-gym-app/assets/icons/512.png",
+        "/my-gym-app/assets/icons/57.png",
+        "/my-gym-app/assets/icons/58.png",
+        "/my-gym-app/assets/icons/60.png",
+        "/my-gym-app/assets/icons/64.png",
+        "/my-gym-app/assets/icons/72.png",
+        "/my-gym-app/assets/icons/76.png",
+        "/my-gym-app/assets/icons/80.png",
+        "/my-gym-app/assets/icons/87.png",
+        "/my-gym-app/assets/images/1.png",
+        "/my-gym-app/assets/images/2.png",
+        "/my-gym-app/assets/images/3.png",
+        "/my-gym-app/assets/images/4.png",
+        "/my-gym-app/assets/images/5.png",
+        "/my-gym-app/assets/images/6.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/my-gym-app/assets/data.json": "f0bf40a4d7be18b112e80598f673a6ed7d85a5c2",
+    "/my-gym-app/assets/icons/100.png": "1e57c512227cff2146cb6f20d1425c1b86f6be23",
+    "/my-gym-app/assets/icons/1024.png": "9561f4dfc57f7a6df5b644e26d268a89e08bf540",
+    "/my-gym-app/assets/icons/114.png": "b625721cbf45cf8fea02f5993c94a368eb059c19",
+    "/my-gym-app/assets/icons/120.png": "d444f8c2983a8ca5864a99e13f087cfef82785e7",
+    "/my-gym-app/assets/icons/128.png": "59cb79e7614e2b8c1cead17d5f98830b97846d1a",
+    "/my-gym-app/assets/icons/144.png": "f0b90ef991ee3ba7a21c937b155ca713f09508dc",
+    "/my-gym-app/assets/icons/152.png": "b5183711267ef9dcfee2d657fe1dd1b59a0a116e",
+    "/my-gym-app/assets/icons/16.png": "1486c96bcc094b699ccd4a1109c1131cbef1e1ea",
+    "/my-gym-app/assets/icons/167.png": "6211bfb85110b432658ef0f2867c0a6a4b10aaa3",
+    "/my-gym-app/assets/icons/180.png": "1c5c14a106d2b896274373d61a30e91b4564b051",
+    "/my-gym-app/assets/icons/192.png": "ab76b9bd78c72a52448905dd4fbaa809e7ef45b0",
+    "/my-gym-app/assets/icons/20.png": "a35a08145d89e84c51ccf582f64d321288119d91",
+    "/my-gym-app/assets/icons/256.png": "7416ac577972abc846731d94256a3753cf583067",
+    "/my-gym-app/assets/icons/29.png": "164ff8804fb029401a9e61e3ca3e2e45b00e3653",
+    "/my-gym-app/assets/icons/32.png": "1510f4363ffd45dccc497856821c2ef1d396e278",
+    "/my-gym-app/assets/icons/40.png": "47b367f89f5e18e2b272ef3c4d1f2e21b60aa609",
+    "/my-gym-app/assets/icons/50.png": "88f0099a3beb69c0c943c142101de6159861af08",
+    "/my-gym-app/assets/icons/512.png": "625499cf3e9d5821893df1c96e09d987cf69afa6",
+    "/my-gym-app/assets/icons/57.png": "843ddcddcc64d0386274e93dbc8a968d23de4e28",
+    "/my-gym-app/assets/icons/58.png": "b3a9a59b328504a9a2a9bb28f36e2b4633192a9f",
+    "/my-gym-app/assets/icons/60.png": "d32c4ea44b766be295facc6ba624469025aa710e",
+    "/my-gym-app/assets/icons/64.png": "0d5a7a93495078ce1f64837feae1326f05bc54b5",
+    "/my-gym-app/assets/icons/72.png": "179eba6bf1c0a1f2d3ec96cfc6565dfb6966fa9b",
+    "/my-gym-app/assets/icons/76.png": "05ca05173a03fa78d74fc5ecfe8a2a5d3107ca0b",
+    "/my-gym-app/assets/icons/80.png": "8ae51f9f9b5207b687fb2eb64321691fd8bb0abb",
+    "/my-gym-app/assets/icons/87.png": "e25c3a2970e13ee7e5e0c52244c69d771c3df2bb",
+    "/my-gym-app/assets/images/1.png": "f2408264ac209cff42c42aaced587aab48c2f645",
+    "/my-gym-app/assets/images/2.png": "e576a889488acb4e2c056a862b62bc207cd4753f",
+    "/my-gym-app/assets/images/3.png": "0cb9fc65b33c0b0ab7d92ec536c7fa20c3f4f451",
+    "/my-gym-app/assets/images/4.png": "6cca91d2ed92d42eeb757f404ef8f27ce76698fc",
+    "/my-gym-app/assets/images/5.png": "d82ab192257ec7c5c085ea68eea19dcd49936083",
+    "/my-gym-app/assets/images/6.png": "fd17655a7510ab6501cbb650cac7c8091c39f9cb",
+    "/my-gym-app/favicon.ico": "04c278dba3e54393c4c980f7fd4dcd43796ef813",
+    "/my-gym-app/index.html": "527d646bde4fb2054774a84359d81642d46ef637",
+    "/my-gym-app/main.2bd72d81cfbdd3b3.js": "a59b3ffe3c0d5214cab71b9b38c3f9ebab4ec70a",
+    "/my-gym-app/manifest.webmanifest": "562c11044f64a8ef988a095d3b846441d88ff2d7",
+    "/my-gym-app/polyfills.d7317d4c8f87ef15.js": "0b809f916c9f31cc2a078ddd055bcf8e4387d432",
+    "/my-gym-app/runtime.083b88174350612e.js": "399a815a857e3a8fdb41fe565ec7fb69a6c4afcf",
+    "/my-gym-app/styles.6c6c2169e4e2710d.css": "01151c2327bac921e1106f6be93c0e6b8f8c0a5c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
